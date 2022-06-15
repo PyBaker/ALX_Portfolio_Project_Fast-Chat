@@ -6,7 +6,7 @@
 [![Downloads Stats][npm-downloads]][npm-url]
 
 This is a quick chat app for ALX and Holberton Software engineers. No hassles. 
-![](./devy/header.png)
+![](./devy/header4.png)
 
 ## Installation
 
