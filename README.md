@@ -2,13 +2,16 @@
 [![Python Version][python-image]][python-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
-
-<h1 align="centre"> Fast Chat<h1>
+<p align="centre">
+<h1>Fast Chat</h1>
+</p>
 <p align="center">
 
-  A quick way to chat ;P.
   <a href="Fast_Chat_App"><img alt="XMonad logo" src="./devy/header4.png" height=250></a>
 </p>
+
+### A quick way to chat ;P.
+
 This is a quick chat app for ALX and Holberton Software engineers. No hassles.
 
 ## Installation
