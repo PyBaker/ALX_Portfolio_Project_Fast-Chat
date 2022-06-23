@@ -6,8 +6,9 @@
 [![Downloads Stats][npm-downloads]][npm-url]
 
 This is a quick chat app for ALX and Holberton Software engineers. No hassles.
-
-![](./devy/header4.png)
+<p align="center">
+  <a href="Fast_Chat_App"><img alt="XMonad logo" src="./devy/header4.png" height=250></a>
+</p>
 
 ## Installation
 
