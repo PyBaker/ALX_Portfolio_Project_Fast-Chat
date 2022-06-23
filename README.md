@@ -2,8 +2,9 @@
 [![Python Version][python-image]][python-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
+
 <p align="centre">
-<h1>Fast Chat</h1>
+## Fast Chat
 </p>
 <p align="center">
 
