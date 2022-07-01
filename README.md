@@ -8,7 +8,7 @@
 </p>
 <p align="center">
 
-  <a href="Fast_Chat_App"><img alt="Fast Chat :)" src="./devy/fastchat_banner.png" height=250></a>
+  <a href="Fast_Chat_App"><img alt="Fast Chat :)" src="./devy/fastchat_banner1.png" height=250></a>
 </p>
 
 ### A quick way to chat ;P.
