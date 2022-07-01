@@ -1,17 +1,17 @@
 
-[![Python Version][python-image]][python-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-<p align="centre">
-## Fast Chat
-</p>
 <p align="center">
 
   <a href="Fast_Chat_App"><img alt="Fast Chat :)" src="./devy/fastchat_banner1.png" width=100%></a>
 </p>
 
-### A quick way to chat ;P.
+<p>
+    <h3 text-align="centre">Fast Chat</h3>
+</p>
+
+### A quick way to chat
 
 This is a quick chat app for ALX and Holberton Software engineers. No hassles.
 
@@ -31,37 +31,23 @@ win-get install fast-chat /* In development */
 
 ## Usage example
 
+
 A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
-```
-
 ## Release History
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
+* 0.0.5
+    * Barebones: Rename SimpleChat to Fast-Cha
 * 0.0.1
     * Work in progress
 
-## Meta
+## Contacts
 
-PyBaker – [@Pybaker](https://twitter.com/PyBaker) – email_fam
+PyBaker
+Twitter: [@Pybaker](https://twitter.com/PyBaker)
+Email: drshaunmak@gmail.com
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
