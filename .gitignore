@@ -1,4 +1,5 @@
-alxChat_HQ/
+# alxChat_HQ/
+secs.py 
 tempsis/
 *.code-workspace
 # Byte-compiled / optimized / DLL files
