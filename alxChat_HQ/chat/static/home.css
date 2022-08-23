@@ -1,7 +1,42 @@
+@font-face {
+  font-family: Exo_2;
+  src: url(./Exo_2/Exo2-VariableFont_wght.ttf)
+} 
+@font-face {
+  font-family: silkscreen;
+  src: url(./Silkscreen/Silkscreen-Regular.ttf)
+} 
+@font-face {
+  font-family: Rubik_glitch;
+ src: url(./Rubik_Glitch/RubikGlitch-Regular.ttf);
+}
 body {
+  background-image: linear-gradient(to bottom, rgb(20, 0, 36), rgb(104, 8, 168));
+
   margin: 0 auto;
   max-width: 800px;
   padding: 0 20px;
+  font-family: Exo_2;
+  font-size: medium;
+}
+h4 {
+  text-align: center;
+  font-family: silkscreen;
+  color: #b2f6f8;
+  font-size: xx-large;
+ }
+h3 {
+  text-align: center;
+  font-family: silkscreen, cursive;
+  color: #b2f6f8;
+  font-size: xx-large;
+}
+
+h2 {
+  font-family: silkscreen;
+  text-align: center;
+  color: #b2f6f8;
+  font-size: xxx-large;
 }
 .container {
   border: 2px solid #dedede;
@@ -12,8 +47,21 @@ body {
 }
 
 .darker {
-  border-color: #ccc;
-  background-color: #ddd;
+  border-color: rgb(148, 255, 250);
+  background-color: rgb(235, 220, 255);
+  color: rgb(20, 59, 61);
+  padding: 8px 10px;
+}
+.darker b {
+  margin: 2px 0px 10px ;
+  color: #4f0094;
+}
+.darker p {
+  font-size: large;
+  padding: 0%;
+  margin: 0%;
+  color: black;
+  text-shadow: #b2f6f8;
 }
 
 .container::after {
@@ -51,23 +99,37 @@ body {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(148, 214, 255);
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 .container input[type=submit] {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #470084;
   color: white;
-  padding: 14px 20px;
+  padding: 18px 20px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition-duration: 0.1s;
+  font-family: Exo_2;
+  font-size: x-large;
 }
 .container  input[type=submit]:hover {
-  background-color: #45a049;
+  font-size: x-large;
+  background-color: #28f0f7;
+  transition-duration: 0.15s;
+  color: #470084;
+  text-shadow: 20px #b2f6f8;
+  padding: 18px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Exo_2;
+
 }
 
 .container div {
