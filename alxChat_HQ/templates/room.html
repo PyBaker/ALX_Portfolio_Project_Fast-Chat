@@ -3,31 +3,20 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'home.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
 </head>
 <body>
-
 <h3> ⚡ Fast Chat ⚡</h3>
 <h4> ⬇️ Current room ⬇️ </h4> 
 <h2> {{room}} </h2>
-
 <div id="display">
-
-<!-- <div class="container darker">
-  <b>Tom</b><p>Hello Everyone, How Are You Guys Doing?</p>
-  <span class="time-left">20th, April 2021</span>
-</div> -->
-
 <div class="container darker">
   <b>Opening Room...</b>  
 </div>
-
 </div>
-
 <script>
 $(document).ready(function(){
-
 setInterval(function(){
     $.ajax({
         type: 'GET',
@@ -60,14 +49,11 @@ setInterval(function(){
         <input type="submit" value="send">
     </form>
 </div>
-
-
 </body>
-
+<!-- The code below fetches data from django database using ajax in realtime with out need of page reload-->
 <script type="text/javascript">
   $(document).on('submit','#post-form',function(e){
     e.preventDefault();
-
     $.ajax({
       type:'POST',
       url:'/send',
@@ -83,5 +69,4 @@ setInterval(function(){
     document.getElementById('message').value = ''
   });
 </script>
-
 </html>
