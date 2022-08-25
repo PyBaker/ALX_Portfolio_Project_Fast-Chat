@@ -3,9 +3,12 @@
 [![Downloads Stats][npm-downloads]][npm-url]
 
 <p align="center">
-
   <a href="Fast_Chat_App"><img alt="Fast Chat :)" src="./devy/fastchat_banner1.png" width=100%></a>
 </p>
+<p align="center">
+  <a href="Fast_Chat_App"><img alt="Fast Chat :)" src="./devy/demo1.png" width=100%></a>
+</p>
+
 
 <p>
     <h3 text-align="centre">Fast Chat</h3>
