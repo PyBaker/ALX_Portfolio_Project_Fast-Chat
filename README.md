@@ -34,6 +34,10 @@ win-get install fast-chat /* In development */
 
 ## Usage example
 
+visit https://shaunthedeveloper.tech
+  create a room eg, testgit
+  I'll be checking :D 
+
 
 A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
